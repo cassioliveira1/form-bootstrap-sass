@@ -10,11 +10,12 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     color: white;
+    height: 100vh;
 }
 
-.container {
+.container1 {
     background-color: $background-color;
-    width: 450px;
+    max-width: 450px;
     height: auto;
 }
 
@@ -23,7 +24,7 @@ body {
 }
 
 .paragraph {
-    margin: 8px;
+    margin: 6px 8px;
 }
 
 .btnSend {
